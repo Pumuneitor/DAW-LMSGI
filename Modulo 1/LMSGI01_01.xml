@@ -1,0 +1,11 @@
+<?xml version= "1.0" encoding="iso-8859-1" ?>
+<contacto>
+	<nombre>Armando</nombre>
+	<apellidos>Bronca Segura</apellidos>
+	<direccion>Avenida de la Alegría 20</direccion>
+	<telefono>
+		<fijo/>
+		<movil>666333225</movil>
+		<trabajo/>
+	</telefono>
+</contacto>

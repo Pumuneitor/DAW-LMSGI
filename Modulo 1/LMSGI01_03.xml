@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<daw>
+    <modulo nombre='Lenguajes de Marcas y Sistemas de Gestión de Información'>
+        <horas_semanales>4</horas_semanales>
+        <obligatorio>true</obligatorio>
+        <desde>15-09-2010</desde>
+        <hasta>30-06-2011</hasta>
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <email>ana.fdezgtrrez@hotmail.com</email>
+            <direccion>C/ El Percebe, 13 de Santander CP 39302</direccion>
+            <faltas/>
+            <nota/>
+        </alumno>
+        <alumno>
+            <nombre>Pepito Grillo</nombre>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <email>yhyh@yahoo.com</email>
+            <direccion>Avd. El Pez, 5 de Suances CP 39401</direccion>
+            <faltas>0</faltas>
+            <nota>apto</nota>
+        </alumno>
+    </modulo>
+</daw>
