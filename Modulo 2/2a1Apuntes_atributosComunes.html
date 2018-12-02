@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+<h3>4. Clasificación de los atributos comunes según su funcionalidad</h3>
+<div class="no-overflow">
+<p></p>
+<p><strong>Atributos básicos:</strong>&nbsp;Se pueden usar en casi todas las etiquetas HTML.</p>
+<p></p>
+<table border="1" style="background-color: white; font-size: 14.44px;">
+   <tbody>
+      <tr>
+         <th scope="col" width="15%" style="text-align: center;"><strong>Atributo</strong></th>
+         <th scope="col" style="text-align: center;"><strong>Descripción</strong></th>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>name </b>= "texto"</p>
+         </td>
+         <td>
+            <p>Permite asignar el nombre "texto" a un objeto HTML</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>title </b>= "texto"</p>
+         </td>
+         <td>
+            <p>Asigna un título a un elemento HTML, mejorando así la accesibilidad. Dicho título es mostrado por los navegadores cuando el usuario pasa el ratón por encima del elemento. Es especialmente útil con los elementos: a, link, img, object, abbr y acronym</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>id </b>= "texto"</p>
+         </td>
+         <td>
+            <p>Permite identificar al elemento HTML sobre el que se aplica de forma única mediante el identificador "texto". Sólo es útil cuando se trabaja con CSS y con Javascript.</p>
+            <p>No pueden empezar por números y sólo puede contener letras, números, guiones medios y/o guiones bajos.</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>style </b>= "texto"</p>
+         </td>
+         <td>
+            <p>Permite aplicar al elemento HTML el estilo "texto" directamente.</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;">&nbsp;<b>class </b>= "texto"</p>
+         </td>
+         <td>
+            <p>Permite aplicar al elemento HTML el estilo "texto" definido en las CSS.</p>
+            <p>No pueden empezar por números y sólo puede contener letras, números, guiones medios y/o guiones bajos.</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<p style="font-size: 14.44px;">&nbsp;</p>
+<p></p>
+<p style="font-size: 14.44px; display: inline !important;"></p>
+<ul>
+   <li><strong style="font-size: 14.44px;">Atributos para internacionalización:</strong><span style="font-size: 14.44px;">&nbsp;Los utilizan las páginas que muestran sus contenidos en varios idiomas o aquellas que quieren indicar de forma explícita el idioma de sus contenidos</span>&nbsp;</li>
+</ul>
+<table border="1" style="background-color: white; font-size: 14.44px;">
+   <tbody>
+      <tr>
+         <th scope="col" width="15%" style="text-align: center;"><strong>Atributo</strong></th>
+         <th scope="col" style="text-align: center;"><strong>Descripción</strong></th>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>dir</b></p>
+         </td>
+         <td>
+            <p>Indica la dirección del texto por lo que sólo puede tomar dos valores:</p>
+            <p>ltr (left to right) de izquierda a derecha. Es el valor por defecto.</p>
+            <p>rtl (right to left) de derecha a izquierda.</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>lang </b>= "codigo"</p>
+         </td>
+         <td>
+            <p>Especifica el idioma del elemento mediante un código predefinido. Los posibles valores de este atributo se encuentran en el documento<b> RFC 1766</b>, algunos de los valores posibles son:</p>
+            <dl>
+               <dd>
+                  <center>
+                     <table border="1" style="text-align: center;">
+                        <tbody>
+                           <tr valign="top">
+                              <th>Código</th>
+                              <th style="text-align: center;">Idioma</th>
+                              <th>Código</th>
+                              <th style="text-align: center;">Idioma</th>
+                           </tr>
+                           <tr valign="top">
+                              <td><b>en</b></td>
+                              <td>Inglés (Gran Bretaña)</td>
+                              <td><b>es</b></td>
+                              <td>Español</td>
+                           </tr>
+                           <tr valign="top">
+                              <td><b>en-US</b></td>
+                              <td>Inglés americano</td>
+                              <td><b>fr</b></td>
+                              <td>Francés</td>
+                           </tr>
+                           <tr valign="top">
+                              <td><b>ja</b></td>
+                              <td>Japones</td>
+                              <td>fr-<b>CA</b></td>
+                              <td>Francés de Canada</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </center>
+               </dd>
+            </dl>
+            <p style="text-align: center;">&nbsp;</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p style="text-align: center;"><b>xml:lang =</b> "codigo"</p>
+         </td>
+         <td>
+            <p>Especifica el idioma del elemento mediante un código definido según la recomendación <b>RFC 1766</b>.</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<p style="font-size: 14.44px;">&nbsp;</p>
+<p style="font-size: 14.44px;">En las páginas <b>XHTML</b>, el atributo <b>xml:lang</b> tiene más prioridad que <b>lang </b>y es obligatorio incluirlo siempre que se incluye el atributo <b>lang</b>.</p>
+<ul>
+   <li>
+      <p><strong>Atributos de eventos y atributos para los elementos que pueden obtener el foco:&nbsp;</strong>Sólo se utilizan en las páginas web dinámicas creadas con JavaScript. Como no es nuestro objetivo no lo vamos a contemplar.</p>
+   </li>
+</ul>
+<br><br>
+<p></p>
+</div>
+</html>
