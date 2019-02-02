@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Ejercicio 1 RSS</title>
+<link>https://www.tiempo.es</link>
+<description>RSS con el tiempo en mi ciudad para el ejercicio de DAW</description>
+<language>es</language>
+
+<item>
+<title>El tiempo en Parla</title>
+<link>https://www.tiempo.es/madrid-parla-es0ma0102.html</link>
+<guid>https://www.tiempo.es/madrid-parla-es0ma0102.html</guid>
+<description>Tiempo en la ciudad de Parla - Madrid</description>
+</item>
+
+<item>
+<title>Tiempo en San Isidro</title>
+<link>https://www.tiempo.es/especial/san-isidro.html</link>
+<guid>https://www.tiempo.es/especial/san-isidro.html</guid>
+<description>Espacio espcialmente realizado para la informacion meteorologica de las fiestas de San Isidro</description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background:purple;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>SINDICACIÓN DE CONTENIDOS</h1>  
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Lado Izquierdo</h2>
+    <h5>Vamos a insertar el RSS</h5>
+    <a href="Tarea1.xml" target="_blank">
+            <img border="0" alt="¡Suscríbete al RSS!" title="¡Suscríbete al RSS!" src="RSS.png" valign="middle">
+        </a>    
+    <p>↑↑↑↑ Aqui arriba podras subscribirte con un feed RSS ↑↑↑↑</p>
+    <p>Estamos haciendo una web de ejemplo con 2 sindicaciones de contenidos. A este lado tenemos el feed RSS</p>    
+  </div>
+  <div class="main">
+    <h2>Lado derecho y principal</h2>
+    <h5>En este lado vamos a poner la posibilidad de subscirbiros pero con ATOM</h5>
+    <a href="Tarea3.xml" target="_blank">
+            <img border="0" alt="¡Suscríbete al ATOM!" title="¡Suscríbete al ATOM!" src="Atom.jpg" valign="middle">
+        </a>    
+    <p>↑↑↑↑ Aqui arriba podras subscribirte con un feed ATOM ↑↑↑↑</p>
+    <p>Pues al final no nos ha quedado tan mal la pagina web oye.</p>
+    <h4>Lo mejor, es que es responsive.</h4>
+  </div>
+</body>
+</html>

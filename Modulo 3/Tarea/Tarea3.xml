@@ -1,0 +1,26 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+<title type="text">Ejercicio 2 de RSS</title>
+<link rel="alternate" type="text/html" href="https://www.tiempo.es/"/>
+<id>https://www.tiempo.es/</id>
+<updated>2018-12-16T22:00:00Z</updated>
+<entry>
+<title>El tiempo en Parla</title>
+<link rel="alternate" type="text/html" href="https://www.tiempo.es/madrid-parla-es0ma0102.html"/>
+<updated>2018-12-16T22:00:00Z</updated>
+<id>https://www.tiempo.es/madrid-parla-es0ma0102.html</id>
+<author>
+<name>Javier Villaverde</name>
+</author>
+<summary>Tiempo en la ciudad de Parla - Madrid</summary>
+</entry>
+<entry>
+<title>Tiempo en San Isidro</title>
+<link rel="alternate" type="text/html" href="https://www.tiempo.es/especial/san-isidro.html"/>
+<updated>2018-12-16T22:01:00Z</updated>
+<id>https://www.tiempo.es/especial/san-isidro.html</id>
+<author>
+<name>Javier Villaverde</name>
+</author>
+<summary>Espacio espcialmente realizado para la informacion meteorologica de las fiestas de San Isidro</summary>
+</entry>
+</feed>
